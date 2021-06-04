@@ -1,0 +1,8 @@
+### IntelliJ IDEA excludes ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Project files excludes ###
+*.js
