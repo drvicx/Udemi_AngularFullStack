@@ -24,7 +24,14 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
-**20210604_1840:** _Create "HelloWorld" TypeScript project_
+**20210605_2010:** _04: TypeScript Fundamentals_
 <pre>
+-- 008. Defining Variables (008,009);
+-- 010. Creating Loops and Arrays (010-012);
+</pre>
+
+**20210604_1840:** _04: Create "HelloWorld" TypeScript project_
+<pre>
+-- 006. TypeScript Overview;
 -- 007. Creating our first TypeScript application;
 </pre>
