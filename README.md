@@ -24,6 +24,15 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20210606_2315:** _05: TypeScript Classes: Basics_
+<pre>
+-- 013. Creating Classes (013,014);
+-- 015. Defining Accessors (015,016);
+-- 017. Compiler Options ("tsconfig.json");
+-- 018. Parameter Properties;
+-- 019. TypeScript Modules (Export and Import);
+</pre>
+
 **20210605_2010:** _04: TypeScript Fundamentals_
 <pre>
 -- 008. Defining Variables (008,009);
