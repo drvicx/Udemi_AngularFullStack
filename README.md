@@ -24,6 +24,13 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20210607_2120:** _06: TypeScript Classes: Inheritance and Interfaces_
+<pre>
+-- 020. Inheritance (020-024);
+-- 025. Abstract Classes (025-026);
+-- 027. Interfaces (027-028);
+</pre>
+
 **20210606_2315:** _05: TypeScript Classes: Basics_
 <pre>
 -- 013. Creating Classes (013,014);
