@@ -8,7 +8,7 @@ import { Coach } from './Coachs';
 
 
 /**
- *=Class CricketCoach which implements Interface Coach
+ *=Class GolfCoach which implements Interface Coach
  */
 export class GolfCoach implements Coach {
     //--Interface Method Implementation
