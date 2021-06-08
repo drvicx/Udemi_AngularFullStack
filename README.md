@@ -18,7 +18,10 @@ by Chad Darby<br>
 - dependencies / cli-tools:<br>
   NodeJS (node) v14.17.0 <br>
   Node Package Manager (npm) v6.14.13 <br>
-  TypeScript Compiler (tsc) v4.3.2 <br><br>
+  TypeScript v4.3.1 <br>
+  TypeScript Compiler (tsc) v4.3.2 <br>
+  Angular CLI v12.0.3 <br>
+  <br>
 
 
 **=CHANGE LOG**<br>
