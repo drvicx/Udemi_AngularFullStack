@@ -24,6 +24,13 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20210608_1830:** _07: Angular Crash Course - Fundamentals_
+<pre>
+-- 029. Getting Started with Angular;
+-- 030. Exploring the Angular Project;
+-- 031. Creating a New Angular Project;
+</pre>
+
 **20210607_2120:** _06: TypeScript Classes: Inheritance and Interfaces_
 <pre>
 -- 020. Inheritance (020-024);
