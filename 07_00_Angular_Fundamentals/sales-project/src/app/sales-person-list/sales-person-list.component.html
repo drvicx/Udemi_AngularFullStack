@@ -1,0 +1,23 @@
+<p>sales-person-list.component</p>
+
+<table border="1" style="border-collapse: collapse;">
+
+  <thead>
+    <tr>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+      <th>SalesVolume</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let person of salesPersonList">
+      <td>{{ person.firstName }}</td>
+      <td>{{ person.lastName }}</td>
+      <td>{{ person.email }}</td>
+      <td>{{ person.salesVolume }}</td>
+    </tr>
+  </tbody>
+
+</table>

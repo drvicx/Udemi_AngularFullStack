@@ -7,8 +7,9 @@ by Chad Darby<br>
 
 **=INFO**
 
-- linked project:<br>
-["Java Spring Boot REST webApp from UDEMI course"](https://github.com/drvicx/Udemi_SpringBootREST) <br>
+- linked projects:<br>
+["jdm-timesheet-cloud"](https://github.com/drvicx/jdm-timesheet-cloud) <br>
+["jdm-timesheet-client-angular"](https://github.com/drvicx/jdm-timesheet-client-angular) <br>
 
 - environment:<br>
   Windows 10 + WSL2 <br>
@@ -16,18 +17,26 @@ by Chad Darby<br>
   IntelliJ IDEA 2020.3 <br>
 
 - dependencies / cli-tools:<br>
-  NodeJS (node) v14.17.0 <br>
-  Node Package Manager (npm) v6.14.13 <br>
-  TypeScript v4.3.1 <br>
-  TypeScript Compiler (tsc) v4.3.2 <br>
-  Angular CLI v12.0.3 <br>
+  Node Version Manager (nvm) v1.1.8
+  NodeJS (node) v14.18.1 <br>
+  Node Package Manager (npm) v6.14.15 <br>
+  TypeScript v4.2.4 <br>
+  TypeScript Compiler (tsc) v4.4.4 <br>
+  Angular CLI v12.2.11 <br>
   <br>
 
 
 **=CHANGE LOG**<br>
 *new at the beginning
 
-**20210608_1830:** _07: Angular Crash Course - Fundamentals_
+**20211108_1840:** _07: Angular Crash Course - Fundamentals (cont.)_
+<pre>
+-- 032. Behind The Scenes of An Angular Project (032-033);
+-- 034. Creating a New Angular Component - Overview (034-035);
+-- 036. Creating a New Angular Component - Write Some Code (036-038);
+</pre>
+
+**20210608_1830:** _07: Angular Crash Course - Fundamentals (beg.)_
 <pre>
 -- 029. Getting Started with Angular;
 -- 030. Exploring the Angular Project;
@@ -61,3 +70,10 @@ by Chad Darby<br>
 -- 006. TypeScript Overview;
 -- 007. Creating our first TypeScript application;
 </pre>
+<br>
+
+**=APP-PREVIEW**
+
+- "Creating a New Angular Component | no CSS" (034-038)
+
+![preview](_preview/udm-rest-angular_20211108_172143_1.png?raw=true)
