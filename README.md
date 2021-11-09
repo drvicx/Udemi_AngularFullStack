@@ -29,6 +29,12 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20211109_1900:** _07: Angular Crash Course - Fundamentals (cont.)_
+<pre>
+-- 039. Integrating Angular and Bootstrap CSS (039-040);
+-- 041. Angular Conditionals and Formatting (041-043);
+</pre>
+
 **20211108_1840:** _07: Angular Crash Course - Fundamentals (cont.)_
 <pre>
 -- 032. Behind The Scenes of An Angular Project (032-033);
@@ -76,4 +82,4 @@ by Chad Darby<br>
 
 - "Creating a New Angular Component | no CSS" (034-038)
 
-![preview](_preview/udm-rest-angular_20211108_172143_1.png?raw=true)
+![preview](_preview/udm-rest-angular_20211109_190000_1.png?raw=true)

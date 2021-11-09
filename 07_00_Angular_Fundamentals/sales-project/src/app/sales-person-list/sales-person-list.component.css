@@ -1,3 +1,15 @@
 th, td {
-  padding: 3px;
+  /*padding: 3px;*/
+}
+
+.bg_sales_hi {
+  background-color: #d3f5d3;
+}
+
+.bg_sales_med {
+  background-color: #dae8ff;
+}
+
+.bg_sales_low {
+  background-color: #ffd4d4;
 }

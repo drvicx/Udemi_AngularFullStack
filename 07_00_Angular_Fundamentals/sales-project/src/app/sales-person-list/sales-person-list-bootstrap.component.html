@@ -1,0 +1,52 @@
+<!--implement bs5 styles -->
+<p>sales-person-list.component</p>
+
+<table class="table table-hover">
+
+  <thead>
+    <tr class="table-dark">
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+      <th>SalesVolume</th>
+      <th>MetQuota?</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <!--backup-->
+    <!--<tr *ngFor="let person of salesPersonList">-->
+
+    <!--implement css-class changing by condition-->
+    <!--<tr *ngFor="let person of salesPersonList" [ngClass]="{'bg_sales_hi': person.salesVolume >= 60000}">-->
+
+    <tr *ngFor="let person of salesPersonList" [ngClass]="{
+                                                            'bg_sales_hi': person.salesVolume >= 60000,
+                                                            'bg_sales_med': person.salesVolume < 60000 && person.salesVolume > 10000,
+                                                            'bg_sales_low': person.salesVolume <= 10000
+                                                          }">
+      <td>{{ person.firstName }}</td>
+      <td>{{ person.lastName }}</td>
+      <td>{{ person.email }}</td>
+
+      <!--implement value formatting with AngularPipes-->
+      <td>{{ person.salesVolume | currency:'USD' }}</td>
+
+      <!--without formatting-->
+      <!--<td>yes|no</td>-->
+
+      <!--implement conditional output with Angular ngIf-->
+      <td>
+        <!-- case of true result - "yes" -->
+        <div *ngIf="person.salesVolume >= 60000; else myElseBlock">Yes</div>
+        <!-- case of false result - "no" -->
+        <ng-template #myElseBlock>No</ng-template>
+      </td>
+    </tr>
+  </tbody>
+
+</table>
+
+<hr>
+<p>legend: <span class="bg_sales_hi">hi sales (60k+)</span> : <span class="bg_sales_med">medium sales (10-60k)</span> : <span class="bg_sales_low">low sales (10k-)</span></p>
