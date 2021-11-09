@@ -29,7 +29,7 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
-**20211109_1900:** _07: Angular Crash Course - Fundamentals (cont.)_
+**20211109_1900:** _08: Angular Crash Course - Bootstrap CSS, Conditionals and Formatting_
 <pre>
 -- 039. Integrating Angular and Bootstrap CSS (039-040);
 -- 041. Angular Conditionals and Formatting (041-043);
