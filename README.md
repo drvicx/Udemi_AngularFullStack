@@ -80,6 +80,6 @@ by Chad Darby<br>
 
 **=APP-PREVIEW**
 
-- "Creating a New Angular Component | no CSS" (034-038)
+- "Creating a New Angular Component | with CSS" (039-043)
 
 ![preview](_preview/udm-rest-angular_20211109_190000_1.png?raw=true)
