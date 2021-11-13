@@ -17,6 +17,7 @@ by Chad Darby<br>
   IntelliJ IDEA 2020.3 <br>
 
 - dependencies (backend):<br>
+  MySQL/MariaDB DBMS + database <br> 
   Oracle Java JDK 17.0.1 <br>
   Maven 3.6.3<br>
   Spring Boot 2.4.12 (some problems with v2.5.6) <br>
