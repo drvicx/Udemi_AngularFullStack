@@ -1,0 +1,52 @@
+package com.drvicx.ecommerce.config;
+
+import com.drvicx.ecommerce.entity.Product;
+import com.drvicx.ecommerce.entity.ProductCategory;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
+import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
+import org.springframework.http.HttpMethod;
+//import org.springframework.web.servlet.config.annotation.CorsRegistry;
+
+
+/**
+ *=Configuration Class for DISABLE some HTTP-Methods for Product REST Repository Class
+ */
+@Configuration
+public class MyDataRestConfig implements RepositoryRestConfigurer {
+
+    //@Override
+    //public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {..}
+
+    //=ATTENTION:
+    // - configureRepositoryRestConfiguration() Method IS NOT EXISTS in new version of Spring Boot (2.5.6)
+    //   and this produce an error: "Method does not override method from its superclass";
+    // - in previous Spring Boot version (2.4.12) this Method is Exists, but in deprecation status!
+    @Override
+    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+
+        //--Use Method enumerators when create list of enums (возможно я не правильно понял.. это-же енумераторы?)
+        HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
+
+        //--disable HTTP methods for Product: PUT, POST and DELETE
+        //  *lambda-expression syntax
+        config.getExposureConfiguration()
+            // select Entity Class
+            .forDomainType(Product.class)
+            // disable single element/items modification
+            .withItemExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+            // disable multiply elements/items (collection) modification
+            .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+
+        //--disable HTTP methods for ProductCategory: PUT, POST and DELETE
+        //  *lambda-expression syntax
+        config.getExposureConfiguration()
+                // select Entity Class
+                .forDomainType(ProductCategory.class)
+                // disable single element/items modification
+                .withItemExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                // disable multiply elements/items (collection) modification
+                .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+    }
+}
