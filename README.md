@@ -10,19 +10,16 @@ by Chad Darby<br>
 - linked projects:<br>
 ["jdm-timesheet-cloud"](https://github.com/drvicx/jdm-timesheet-cloud) <br>
 ["jdm-timesheet-client-angular"](https://github.com/drvicx/jdm-timesheet-client-angular) <br>
-<br>
 
 - environment:<br>
   Windows 10 + WSL2 <br>
   Docker Desktop v3.3.3 (Docker v20.10.6, Compose 1.29.1) <br>
   IntelliJ IDEA 2020.3 <br>
-  <br>
 
 - dependencies (backend):<br>
   Oracle Java JDK 17.0.1 <br>
   Maven 3.6.3<br>
   Spring Boot 2.4.12 (some problems with v2.5.6) <br>
-  <br>
   
 - dependencies (frontend):<br>
   Node Version Manager (nvm) v1.1.8 <br>
@@ -31,7 +28,6 @@ by Chad Darby<br>
   TypeScript v4.2.4 <br>
   TypeScript Compiler (tsc) v4.4.4 <br>
   Angular CLI v12.2.11 <br>
-  <br>
 
 - backend REST-endpoints (post, put, delete http-methods IS NOT allowed - 405): <br>
   -1- [Get API URLs](http://localhost:8080/api) <br>
