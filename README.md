@@ -42,6 +42,17 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20211114_0720:** _10. eCommerce Project - Angular Front End - Product List_
+<pre>
+-- 054. Angular Project Overview (054-055);
+-- 056. Angular Project - Setup (056);
+-- 057. Angular Project - Create Product class and Product Service (057-058);
+-- 059. Angular Project - Update Angular Component
+-- 060. Angular Project - Integrating Angular and Spring Boot for Full Stack App!
+-- 061. Angular Project - Building an HTML Table
+-- 062. Angular Project - Adding Product Images
+</pre>
+
 **20211113_1440:** _09. eCommerce Project - Spring Boot Backend_
 <pre>
 -- 044. Spring Boot REST API backend Project setup (044-048);
@@ -101,6 +112,18 @@ by Chad Darby<br>
 
 **=APP-PREVIEW**
 
+- "Fronend Angular App" (Product List v0.1: text)
+
+![preview](_preview/ecommerce-frontend_20211114_0500.png?raw=true)
+
+- "Fronend Angular App" (Product List v0.2: table)
+
+![preview](_preview/ecommerce-frontend_20211114_0600.png?raw=true)
+
+- "Fronend Angular App" (Product List v0.3: table+images)
+
+![preview](_preview/ecommerce-frontend_20211114_0720.png?raw=true)
+
 - "Backend eCommerce REST API Service" (api - endpoint)
 
 ![preview](_preview/ecommerce-backend_20211112_1400_1.png?raw=true)
@@ -112,7 +135,3 @@ by Chad Darby<br>
 - "Backend eCommerce REST API Service" (categories - endpoint)
 
 ![preview](_preview/ecommerce-backend_20211112_1400_3.png?raw=true)
-
-- "Fronend Angular App" (just example app)
-
-![preview](_preview/udm-rest-angular_20211109_190000_1.png?raw=true)
