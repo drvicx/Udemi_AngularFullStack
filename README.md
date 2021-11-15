@@ -133,17 +133,17 @@ by Chad Darby<br>
 
 ![preview](_preview/ecommerce-frontend_20211115_2100.png?raw=true)
 
-- "Fronend Angular App" v1.0 (Product List v0.1: text)
+- "Fronend Angular App" v1.0 (Product List v0.3: table+images)
 
-![preview](_preview/ecommerce-frontend_20211114_0500.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211114_0720.png?raw=true)
 
 - "Fronend Angular App" v1.0 (Product List v0.2: table)
 
 ![preview](_preview/ecommerce-frontend_20211114_0600.png?raw=true)
 
-- "Fronend Angular App" v1.0 (Product List v0.3: table+images)
+- "Fronend Angular App" v1.0 (Product List v0.1: text)
 
-![preview](_preview/ecommerce-frontend_20211114_0720.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211114_0500.png?raw=true)
 
 - "Backend eCommerce REST API Service" (api - endpoint)
 
