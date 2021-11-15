@@ -30,6 +30,9 @@ by Chad Darby<br>
   TypeScript Compiler (tsc) v4.4.4 <br>
   Angular CLI v12.2.11 <br>
 
+- frontend Angular web-app endpoint: <br>
+  -1- [Angular App (main view)](http://localhost:4200) <br>
+
 - backend REST-endpoints (post, put, delete http-methods IS NOT allowed - 405): <br>
   -1- [Get API URLs](http://localhost:8080/api) <br>
   -2- [Get All Products](http://localhost:8080/api/products) <br>
@@ -42,18 +45,32 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
-**20211114_0720:** _10. eCommerce Project - Angular Front End - Product List_
+**20211115_2100:** _11. eCommerce Project (v2.0) - Integrating Online Shop Template_
+<pre>
+-- 063. Angular Project - Template Integration Overview;
+-- 064. Angular Project - Download Starter Files;
+-- 065. Angular Project - Tour of HTML Template Files;
+-- 066. Angular Project - Install Bootstrap CSS Styles with npm;
+-- 067. Angular Project - Add local custom CSS styles;
+-- 068. Angular Project - Integrate Template Files and Logos;
+-- 069. Angular Project - Run the App;
+-- 070. Angular Project - Add support for Product Grid;
+-- 071. Angular Project - Enhance Application with Product Images;
+-- 072. FAQ: Should I Store Images as BLOBs in Database or Files on file system?;
+</pre>
+
+**20211114_0720:** _10. eCommerce Project (v1.0) - Angular Front End - Product List_
 <pre>
 -- 054. Angular Project Overview (054-055);
 -- 056. Angular Project - Setup (056);
 -- 057. Angular Project - Create Product class and Product Service (057-058);
--- 059. Angular Project - Update Angular Component
--- 060. Angular Project - Integrating Angular and Spring Boot for Full Stack App!
--- 061. Angular Project - Building an HTML Table
--- 062. Angular Project - Adding Product Images
+-- 059. Angular Project - Update Angular Component;
+-- 060. Angular Project - Integrating Angular and Spring Boot for Full Stack App;
+-- 061. Angular Project - Building an HTML Table;
+-- 062. Angular Project - Adding Product Images;
 </pre>
 
-**20211113_1440:** _09. eCommerce Project - Spring Boot Backend_
+**20211113_1440:** _09. eCommerce Project (v1.0) - Spring Boot Backend_
 <pre>
 -- 044. Spring Boot REST API backend Project setup (044-048);
 -- 049. Develop JPA Entities (049-050);
@@ -112,15 +129,19 @@ by Chad Darby<br>
 
 **=APP-PREVIEW**
 
-- "Fronend Angular App" (Product List v0.1: text)
+- "Fronend Angular App" v2.0 (main view)
+
+![preview](_preview/ecommerce-frontend_20211115_2100.png?raw=true)
+
+- "Fronend Angular App" v1.0 (Product List v0.1: text)
 
 ![preview](_preview/ecommerce-frontend_20211114_0500.png?raw=true)
 
-- "Fronend Angular App" (Product List v0.2: table)
+- "Fronend Angular App" v1.0 (Product List v0.2: table)
 
 ![preview](_preview/ecommerce-frontend_20211114_0600.png?raw=true)
 
-- "Fronend Angular App" (Product List v0.3: table+images)
+- "Fronend Angular App" v1.0 (Product List v0.3: table+images)
 
 ![preview](_preview/ecommerce-frontend_20211114_0720.png?raw=true)
 
