@@ -32,6 +32,7 @@ by Chad Darby<br>
 
 - frontend Angular web-app endpoint: <br>
   -1- [Angular App (main view)](http://localhost:4200) <br>
+  -2- [Angular App (ProductCategory#1 view)](http://localhost:4200/category/1) <br>
 
 - backend REST-endpoints (post, put, delete http-methods IS NOT allowed - 405): <br>
   -1- [Get API URLs](http://localhost:8080/api) <br>
@@ -41,9 +42,22 @@ by Chad Darby<br>
   -5- [Get Single Product Category by ID](http://localhost:8080/api/product-category/1) <br>
   -6- [Get Product Category by Product ID](http://localhost:8080/api/products/1/category) <br>
   -7- [Get Products by Category ID](http://localhost:8080/api/product-category/1/products) <br>
+  -8- [NEW: Find Products by Category ID](http://localhost:8080/api/products/search/findByCategoryId?id=1) <br>
 
 **=CHANGE LOG**<br>
 *new at the beginning
+
+**20211117_1650:** _12. eCommerce Project (v2.0) - Search Products by Category_
+<pre>
+-- 073. Angular Project - Search for Products by Category - Overview (073-075);
+-- 076. Angular Project - Search for Products by Category - Code - Define routes;
+-- 077. Angular Project - Search for Products by Category - Code - Define Router Outlet;
+-- 078. Angular Project - Search for Products by Category - Code - Enhance ProductList;
+-- 079. Angular Project - Search for Products by Category - Code - Update Spring Boot;
+-- 080. Angular Project - Search for Products by Category - Code - Update ProductService;
+
+</pre>
+
 
 **20211115_2100:** _11. eCommerce Project (v2.0) - Integrating Online Shop Template_
 <pre>
@@ -129,9 +143,17 @@ by Chad Darby<br>
 
 **=APP-PREVIEW**
 
-- "Fronend Angular App" v2.0 (main view)
+- "Fronend Angular App" v2.0 (main view | all Product Category)
 
-![preview](_preview/ecommerce-frontend_20211115_2100.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211117_1650_1.png?raw=true)
+
+- "Fronend Angular App" v2.0 ("Books" view / Category)
+
+![preview](_preview/ecommerce-frontend_20211117_1650_2.png?raw=true)
+
+- "Fronend Angular App" v2.0 ("Coffee Mugs" view / Category)
+
+![preview](_preview/ecommerce-frontend_20211117_1650_3.png?raw=true)
 
 - "Fronend Angular App" v1.0 (Product List v0.3: table+images)
 

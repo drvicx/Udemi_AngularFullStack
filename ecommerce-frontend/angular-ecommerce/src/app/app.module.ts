@@ -5,16 +5,33 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductService } from "./services/product.service";
+import {RouterModule, Routes} from "@angular/router";
 
 
+//--ROUTING CONFIGURATION
+//--12.1. Define routs
+const routes: Routes = [
+  { path: 'category/:id', component: ProductListComponent },     //--"first match wins" conception;
+  { path: 'category', component: ProductListComponent },
+  { path: 'products', component: ProductListComponent },
+
+  { path: '', redirectTo: '/products', pathMatch: 'full' },      //--redirect if URL in link is empty;
+  { path: '**', redirectTo: '/products', pathMatch: 'full' }     //--default-route for all other URLs witch not matched;
+];
+
+//--MODULES CONFIGURATION
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent
   ],
   imports: [
+    //--12.2. Configure Router based on our routes
+    RouterModule.forRoot(routes),
+    //--other imports
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

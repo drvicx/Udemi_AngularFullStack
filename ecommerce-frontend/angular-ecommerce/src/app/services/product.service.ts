@@ -13,11 +13,18 @@ export class ProductService {
   //private baseUrl = 'http://localhost:8080/api/products?size=100';
   private baseUrl = 'http://localhost:8080/api/products';
 
-  //--Inject HttpClient (@Injectable) with Angular Dependencies Injection Framework
+  //--10. Inject HttpClient (@Injectable) with Angular Dependencies Injection Framework
   constructor(private httpClient: HttpClient) { }
 
-  getProductList(): Observable<Product[]> {
-    return this.httpClient.get<GetResponse>(this.baseUrl).pipe(
+  //--12.6. Add parameter to getProductList() method
+  getProductList(theCategoryId: number): Observable<Product[]> {
+
+    //--12.7. Build URL based on category id, for example
+    //  http://localhost:8080/api/products/search/findByCategoryId?id=2
+    const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${theCategoryId}`;
+
+    //return this.httpClient.get<GetResponse>(this.baseUrl).pipe(   //--OLD: before course section #12
+    return this.httpClient.get<GetResponse>(searchUrl).pipe(        //--NEW: before course section #12
       map(response => response._embedded.products)
     );
   }
