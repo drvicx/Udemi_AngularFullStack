@@ -55,7 +55,6 @@ by Chad Darby<br>
 -- 078. Angular Project - Search for Products by Category - Code - Enhance ProductList;
 -- 079. Angular Project - Search for Products by Category - Code - Update Spring Boot;
 -- 080. Angular Project - Search for Products by Category - Code - Update ProductService;
-
 </pre>
 
 
@@ -167,14 +166,18 @@ by Chad Darby<br>
 
 ![preview](_preview/ecommerce-frontend_20211114_0500.png?raw=true)
 
-- "Backend eCommerce REST API Service" (api - endpoint)
+- "Backend eCommerce REST API Service" v2.0 (findByCategoryId)
+
+![preview](_preview/ecommerce-backend_20211117_1650_1.png?raw=true)
+
+- "Backend eCommerce REST API Service" v1.0 (api - endpoint)
 
 ![preview](_preview/ecommerce-backend_20211112_1400_1.png?raw=true)
 
-- "Backend eCommerce REST API Service" (products - endpoint)
+- "Backend eCommerce REST API Service" v1.0 (products - endpoint)
 
 ![preview](_preview/ecommerce-backend_20211112_1400_2.png?raw=true)
 
-- "Backend eCommerce REST API Service" (categories - endpoint)
+- "Backend eCommerce REST API Service" v1.0 (categories - endpoint)
 
 ![preview](_preview/ecommerce-backend_20211112_1400_3.png?raw=true)
