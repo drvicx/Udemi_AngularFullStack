@@ -47,6 +47,17 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
+**20211130_1850:** _13. eCommerce Project (v2.0) - Dynamic Category Menu Component_
+<pre>
+-- 081. Angular Project - Dynamic Search Component - Overview (081-082);
+-- 083. Angular Project - Dynamic Search Component - Modify Spring Boot App;
+-- 084. Angular Project - Dynamic Search Component - Create Component;
+-- 085. Angular Project - Dynamic Search Component - Call Product Service;
+-- 086. Angular Project - Dynamic Search Component - Add Dynamic Code to HTML;
+-- 087. Angular Project - Dynamic Search Component - View Console Logs;
+-- 088. Bonus: Display Category Name in Product List Grid;
+</pre>
+
 **20211117_1650:** _12. eCommerce Project (v2.0) - Search Products by Category_
 <pre>
 -- 073. Angular Project - Search for Products by Category - Overview (073-075);
@@ -56,7 +67,6 @@ by Chad Darby<br>
 -- 079. Angular Project - Search for Products by Category - Code - Update Spring Boot;
 -- 080. Angular Project - Search for Products by Category - Code - Update ProductService;
 </pre>
-
 
 **20211115_2100:** _11. eCommerce Project (v2.0) - Integrating Online Shop Template_
 <pre>
@@ -144,15 +154,15 @@ by Chad Darby<br>
 
 - "Fronend Angular App" v2.0 (main view | all Product Category)
 
-![preview](_preview/ecommerce-frontend_20211117_1650_1.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211130_1850_1.png?raw=true)
 
 - "Fronend Angular App" v2.0 ("Books" view / Category)
 
-![preview](_preview/ecommerce-frontend_20211117_1650_2.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211130_1850_2.png?raw=true)
 
 - "Fronend Angular App" v2.0 ("Coffee Mugs" view / Category)
 
-![preview](_preview/ecommerce-frontend_20211117_1650_3.png?raw=true)
+![preview](_preview/ecommerce-frontend_20211130_1850_3.png?raw=true)
 
 - "Fronend Angular App" v1.0 (Product List v0.3: table+images)
 

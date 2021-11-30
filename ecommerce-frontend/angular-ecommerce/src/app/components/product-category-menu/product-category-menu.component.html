@@ -1,0 +1,18 @@
+<div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+        <ul class="list-unstyled navbar-list">
+
+            <!--13.14 - Dynamic List Items in Category Menu -->
+            <!--
+            <li *ngFor="let productCategory of productCategories">
+                <a routerLink="/category/{{ productCategory.id }}" routerLinkActive="active-link">{{ productCategory.categoryName }}</a>
+            </li>
+            -->
+
+            <!--13.16 - Dynamic List Items in Category Menu - Added NEW parameter "name" (Category Name) -->
+            <li *ngFor="let productCategory of productCategories">
+                <a routerLink="/category/{{ productCategory.id }}/{{ productCategory.categoryName }}" routerLinkActive="active-link">{{ productCategory.categoryName }}</a>
+            </li>
+        </ul>
+    </nav>
+</div>

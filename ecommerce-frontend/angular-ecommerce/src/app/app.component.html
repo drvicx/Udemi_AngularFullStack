@@ -7,33 +7,44 @@
         <img src="assets/images/logo.png" alt="luv2shop" class="img-responsive">
       </a>
     </div>
+
+    <!--Menu v0 - Menu elements  -->
+    <!--
     <div class="menu-sidebar-content js-scrollbar1">
       <nav class="navbar-sidebar">
         <ul class="list-unstyled navbar-list">
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Coffee Mugs</a></li>
+          <li><a href="#">Mouse Pads</a></li>
+          <li><a href="#">Luggage Tags</a></li>
+        </ul>
+      </nav>
+    </div>
+    -->
 
-          <!-- default links -->
-          <!--<li><a href="#">Books</a></li>-->
-          <!--<li><a href="#">Coffee Mugs</a></li>-->
-
-          <!-- Angular Router links -->
-          <!-- 4. Set up Router Links to pass category id param;-->
+    <!--Menu v1 - Angular Router links - Static Menu  -->
+    <!--
+    <div class="menu-sidebar-content js-scrollbar1">
+      <nav class="navbar-sidebar">
+        <ul class="list-unstyled navbar-list">
           <li>
               <a routerLink="/category/1" routerLinkActive="active-link">Books</a>
           </li>
           <li>
               <a routerLink="/category/2" routerLinkActive="active-link">Coffee Mugs</a>
           </li>
-
-          <!-- temporary disabled -->
-          <!--
-          <li><a href="#">Mouse Pads</a></li>
-          <li><a href="#">Luggage Tags</a></li>
-          -->
         </ul>
       </nav>
     </div>
+    -->
+
+    <!--Menu v2 -->
+    <!--13.13 - Dynamic Category Menu with ProductCategory Component-->
+    <app-product-category-menu></app-product-category-menu>
+
   </aside>
   <!-- END MENU-SIDEBAR-->
+
 
   <!-- PAGE-CONTAINER-->
   <div class="page-container">
